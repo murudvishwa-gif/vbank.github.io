@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services — Savings, Loans, Cards &amp; Business Banking | Stackly</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="mark">S</span><span>Stackly</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-auth">
+      <a href="login.html" class="nav-login">Login</a>
+      <a href="signup.html" class="nav-signup">Sign Up</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="menu-close" onclick="closeMenu()" aria-label="Close Menu">×</button>
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="about.html" onclick="closeMenu()">About</a>
+  <a href="services.html" class="active" onclick="closeMenu()">Services</a>
+  <a href="features.html" onclick="closeMenu()">Features</a>
+  <a href="pricing.html" onclick="closeMenu()">Pricing</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()">Contact</a>
+  <a href="login.html" class="mobile-login" onclick="closeMenu()">Login</a>
+  <a href="signup.html" class="mobile-signup" onclick="closeMenu()">Sign Up</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Services</div>
+    <div class="eyebrow">Our Services</div>
+    <h1>Every financial product you need, designed to work together</h1>
+    <p>From your first savings account to managing a growing business, Stackly's products are built on one connected platform — so your money moves the way you do.</p>
+  </div>
+</section>
+
+<!-- SAVINGS -->
+<section class="bg-white">
+  <div class="container">
+    <div class="feature-row">
+      <div>
+        <div class="tag">Personal Banking</div>
+        <h2>🏦 Savings Accounts</h2>
+        <p>Open a zero-balance savings account in minutes and start earning up to 7% interest annually. Track every rupee with real-time notifications, automatic categorization, and goal-based savings jars that round up your spare change.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> Zero minimum balance requirement</li>
+          <li><span class="check">✓</span> Up to 7% p.a. interest, paid monthly</li>
+          <li><span class="check">✓</span> Free virtual debit card, issued instantly</li>
+          <li><span class="check">✓</span> Unlimited free transfers via UPI, IMPS &amp; NEFT</li>
+        </ul>
+        <a href="signup.html" class="btn" style="margin-top:28px;">Open Savings Account</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">7% p.a.</h2>
+          <p style="color:var(--muted-light)">Interest on savings, credited monthly with zero lock-in</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOME LOANS -->
+<section class="bg-light">
+  <div class="container">
+    <div class="feature-row reverse">
+      <div>
+        <div class="tag">Lending</div>
+        <h2>🏠 Home Loans</h2>
+        <p>Whether you're buying your first home or refinancing an existing loan, Stackly offers flexible tenures up to 30 years and interest rates that stay competitive throughout your loan term — not just in the first year.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> Loan approval in as little as 48 hours</li>
+          <li><span class="check">✓</span> Tenures from 5 to 30 years</li>
+          <li><span class="check">✓</span> Up to 90% financing on property value</li>
+          <li><span class="check">✓</span> Zero prepayment penalty on floating rates</li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline" style="margin-top:28px;">Check Eligibility</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">48 Hours</h2>
+          <p style="color:var(--muted-light)">Average approval time for pre-qualified home loan applicants</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CREDIT CARDS -->
+<section class="bg-white">
+  <div class="container">
+    <div class="feature-row">
+      <div>
+        <div class="tag">Cards &amp; Rewards</div>
+        <h2>💳 Credit Cards</h2>
+        <p>Earn rewards on every purchase, from groceries to international travel, with no annual fee in the first year and zero forex markup on overseas transactions — making Stackly cards a smart choice for frequent travelers.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> Up to 5% cashback on select categories</li>
+          <li><span class="check">✓</span> Zero forex markup on global spends</li>
+          <li><span class="check">✓</span> Complimentary airport lounge access</li>
+          <li><span class="check">✓</span> Instant card freeze &amp; spend controls in-app</li>
+        </ul>
+        <a href="signup.html" class="btn" style="margin-top:28px;">Compare Cards</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">5% Back</h2>
+          <p style="color:var(--muted-light)">Cashback on dining, travel &amp; online shopping with select cards</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INVESTMENTS -->
+<section class="bg-light">
+  <div class="container">
+    <div class="feature-row reverse">
+      <div>
+        <div class="tag">Wealth</div>
+        <h2>📈 Investments</h2>
+        <p>Grow your wealth with mutual funds, fixed deposits, and guided portfolios curated by certified financial advisors. Start with as little as ₹500 a month and track every investment alongside your everyday banking.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> SIPs starting from ₹500/month</li>
+          <li><span class="check">✓</span> Zero commission on direct mutual funds</li>
+          <li><span class="check">✓</span> Fixed deposits with rates up to 7.75% p.a.</li>
+          <li><span class="check">✓</span> Personalized portfolio reviews, quarterly</li>
+        </ul>
+        <a href="signup.html" class="btn btn-outline" style="margin-top:28px;">Start Investing</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">₹500</h2>
+          <p style="color:var(--muted-light)">Minimum monthly SIP to start building your portfolio</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESS BANKING -->
+<section class="bg-white">
+  <div class="container">
+    <div class="feature-row">
+      <div>
+        <div class="tag">Business Banking</div>
+        <h2>💼 Business Banking</h2>
+        <p>Built for startups, freelancers, and growing companies, Stackly Business combines current accounts, invoicing, payroll, and expense management into a single dashboard — so your finance team spends less time on admin.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> Free current account with no minimum balance</li>
+          <li><span class="check">✓</span> Automated payroll for teams of any size</li>
+          <li><span class="check">✓</span> GST-compliant invoicing built in</li>
+          <li><span class="check">✓</span> Multi-user access with role-based controls</li>
+        </ul>
+        <a href="signup.html" class="btn" style="margin-top:28px;">Open Business Account</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">1-Click</h2>
+          <p style="color:var(--muted-light)">Payroll runs, invoicing, and expense approvals — all from one dashboard</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NRI SERVICES -->
+<section class="bg-light">
+  <div class="container">
+    <div class="feature-row reverse">
+      <div>
+        <div class="tag">Global</div>
+        <h2>🌍 NRI Services</h2>
+        <p>Stay connected to your finances back home with NRE and NRO accounts, same-day remittances to over 40 countries, and dedicated relationship managers who understand the needs of India's global diaspora.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> NRE &amp; NRO accounts opened remotely</li>
+          <li><span class="check">✓</span> Same-day transfers to 40+ countries</li>
+          <li><span class="check">✓</span> Preferential exchange rates on remittances</li>
+          <li><span class="check">✓</span> Dedicated NRI relationship manager</li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline" style="margin-top:28px;">Talk to an NRI Specialist</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">40+</h2>
+          <p style="color:var(--muted-light)">Countries with same-day remittance support</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-dark">
+  <div class="container">
+    <div class="cta-band">
+      <div class="eyebrow">Not Sure Where to Start?</div>
+      <h2>Tell us what you need — we'll match you with the right product</h2>
+      <p>Our team can walk you through every account, loan, and card option based on your goals.</p>
+      <div class="btn-row">
+        <a href="contact.html" class="btn">Speak to an Advisor</a>
+        <a href="pricing.html" class="btn btn-outline-light">View Pricing</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">
+        <span class="mark">S</span><h3>Stackly</h3>
+      </a>
+      <p>Banking reimagined for the modern world. Secure payments, smart investments, business banking, and financial growth — all in one trusted platform.</p>
+      <div class="footer-socials">
+        <a href="404page.html">𝕏</a>
+        <a href="404page.html">in</a>
+        <a href="404page.html">f</a>
+        <a href="404page.html">▶</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-column">
+      <h4>Banking</h4>
+      <a href="services.html">Savings Account</a>
+      <a href="services.html">Credit Cards</a>
+      <a href="services.html">Loans</a>
+      <a href="services.html">Investments</a>
+      <a href="services.html">Business Banking</a>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>📍 Bengaluru, India</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ support@stackly.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Stackly. All Rights Reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="404page.html">Privacy Policy</a>
+      <a href="404page.html">Terms</a>
+      <a href="404page.html">Security</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

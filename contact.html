@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Talk to Stackly</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="mark">S</span><span>Stackly</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <div class="nav-auth">
+      <a href="login.html" class="nav-login">Login</a>
+      <a href="signup.html" class="nav-signup">Sign Up</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="menu-close" onclick="closeMenu()" aria-label="Close Menu">×</button>
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="about.html" onclick="closeMenu()">About</a>
+  <a href="services.html" onclick="closeMenu()">Services</a>
+  <a href="features.html" onclick="closeMenu()">Features</a>
+  <a href="pricing.html" onclick="closeMenu()">Pricing</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" class="active" onclick="closeMenu()">Contact</a>
+  <a href="login.html" class="mobile-login" onclick="closeMenu()">Login</a>
+  <a href="signup.html" class="mobile-signup" onclick="closeMenu()">Sign Up</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <div class="eyebrow">We're Here to Help</div>
+    <h1>Get in touch with our team</h1>
+    <p>Whether you have a question about an account, need help with a loan application, or want to give us feedback — we'll get back to you within 24 hours.</p>
+  </div>
+</section>
+
+<!-- CONTACT FORM + INFO -->
+<section class="bg-white">
+  <div class="container">
+    <div class="feature-row" style="align-items:flex-start;">
+      <div>
+        <h2 style="margin-bottom:8px;">Send us a message</h2>
+        <p style="margin-bottom:28px;">Fill out the form and our support team will respond by email or phone, depending on your preference.</p>
+        <form>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Your full name">
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="you@example.com">
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+91 00000 00000">
+            </div>
+            <div class="field">
+              <label for="topic">Topic</label>
+              <select id="topic">
+                <option>General Inquiry</option>
+                <option>Account Support</option>
+                <option>Loans</option>
+                <option>Credit Card</option>
+                <option>Business Banking</option>
+                <option>NRI Services</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us how we can help..."></textarea>
+            </div>
+            <div class="field full">
+              <button class="btn btn-block" type="button">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-info-card">
+        <h3>Contact Information</h3>
+        <p>Reach us directly using the details below, or visit our headquarters in Bengaluru.</p>
+
+        <div class="contact-line">
+          <div class="ico">📍</div>
+          <div>
+            <strong style="display:block;margin-bottom:4px;">Head Office</strong>
+            Stackly Towers, MG Road, Bengaluru, Karnataka 560001, India
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ico">📞</div>
+          <div>
+            <strong style="display:block;margin-bottom:4px;">Phone</strong>
+            +91 98765 43210 (24/7)
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ico">✉</div>
+          <div>
+            <strong style="display:block;margin-bottom:4px;">Email</strong>
+            support@stackly.com
+          </div>
+        </div>
+        <div class="contact-line">
+          <div class="ico">🕒</div>
+          <div>
+            <strong style="display:block;margin-bottom:4px;">Support Hours</strong>
+            Available 24 hours, 7 days a week
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAP -->
+    <div class="map-frame">
+      <iframe src="https://maps.google.com/maps?q=MG%20Road%20Bengaluru&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Stackly Head Office Location"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT CHANNELS -->
+<section class="bg-light">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow">Other Ways to Reach Us</div>
+      <h2>Choose the channel that works for you</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon">💬</div>
+        <h3>Live Chat</h3>
+        <p>Chat with a support specialist directly in the Stackly app — average response time under 2 minutes.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📞</div>
+        <h3>Phone Support</h3>
+        <p>Call our 24/7 helpline for urgent account issues, card blocking, or fraud reporting.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏢</div>
+        <h3>Branch Visit</h3>
+        <p>Visit one of our partner branches across India for in-person assistance with documentation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">
+        <span class="mark">S</span><h3>Stackly</h3>
+      </a>
+      <p>Banking reimagined for the modern world. Secure payments, smart investments, business banking, and financial growth — all in one trusted platform.</p>
+      <div class="footer-socials">
+        <a href="404page.html">𝕏</a>
+        <a href="404page.html">in</a>
+        <a href="404page.html">f</a>
+        <a href="404page.html">▶</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-column">
+      <h4>Banking</h4>
+      <a href="services.html">Savings Account</a>
+      <a href="services.html">Credit Cards</a>
+      <a href="services.html">Loans</a>
+      <a href="services.html">Investments</a>
+      <a href="services.html">Business Banking</a>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>📍 Bengaluru, India</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ support@stackly.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Stackly. All Rights Reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="404page.html">Privacy Policy</a>
+      <a href="404page.html">Terms</a>
+      <a href="404page.html">Security</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

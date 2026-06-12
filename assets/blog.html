@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Money Tips &amp; Banking Insights | Stackly</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="mark">S</span><span>Stackly</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-auth">
+      <a href="login.html" class="nav-login">Login</a>
+      <a href="signup.html" class="nav-signup">Sign Up</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="menu-close" onclick="closeMenu()" aria-label="Close Menu">×</button>
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="about.html" onclick="closeMenu()">About</a>
+  <a href="services.html" onclick="closeMenu()">Services</a>
+  <a href="features.html" onclick="closeMenu()">Features</a>
+  <a href="pricing.html" onclick="closeMenu()">Pricing</a>
+  <a href="blog.html" class="active" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()">Contact</a>
+  <a href="login.html" class="mobile-login" onclick="closeMenu()">Login</a>
+  <a href="signup.html" class="mobile-signup" onclick="closeMenu()">Sign Up</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Blog</div>
+    <div class="eyebrow">Stackly Insights</div>
+    <h1>Practical guidance for your money, every week</h1>
+    <p>From saving habits to credit scores and digital security, our team breaks down what matters — without the jargon.</p>
+  </div>
+</section>
+
+<!-- FEATURED POST -->
+<section class="bg-white">
+  <div class="container">
+    <div class="feature-row">
+      <div>
+        <div class="tag">Featured</div>
+        <h2>5 Money Habits That Quietly Build Long-Term Wealth</h2>
+        <p>Small, consistent habits often outperform big financial decisions. Here's a look at five practical habits — from automated savings to mindful spending reviews — that compound into real financial security over time.</p>
+        <a href="blog-post.html" class="btn" style="margin-top:24px;">Read Full Article</a>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:2.4rem;">Money Management</h2>
+          <p style="color:var(--muted-light);margin-top:10px;">8 min read · Personal Finance</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="bg-light">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Latest Articles</div>
+      <h2>Recent posts</h2>
+    </div>
+    <div class="grid grid-3">
+      <a href="blog-post.html" class="blog-card">
+        <div class="blog-thumb"><div class="tag">Money Management</div></div>
+        <div class="blog-body">
+          <div class="blog-meta">8 min read</div>
+          <h3>5 Money Habits That Quietly Build Long-Term Wealth</h3>
+          <p>Simple, automatic habits that compound into real savings without major lifestyle changes.</p>
+          <span class="blog-link">Read article →</span>
+        </div>
+      </a>
+      <a href="blog-post.html" class="blog-card">
+        <div class="blog-thumb"><div class="tag">Digital Banking</div></div>
+        <div class="blog-body">
+          <div class="blog-meta">6 min read</div>
+          <h3>How Digital Banking Saves You Hours Every Month</h3>
+          <p>A look at how digital-first banking removes friction from everyday financial tasks.</p>
+          <span class="blog-link">Read article →</span>
+        </div>
+      </a>
+      <a href="blog-post.html" class="blog-card">
+        <div class="blog-thumb"><div class="tag">Credit</div></div>
+        <div class="blog-body">
+          <div class="blog-meta">7 min read</div>
+          <h3>A Practical Guide to Improving Your Credit Score</h3>
+          <p>Concrete, actionable steps to raise your credit score over the next six months.</p>
+          <span class="blog-link">Read article →</span>
+        </div>
+      </a>
+      <a href="blog-post.html" class="blog-card">
+        <div class="blog-thumb"><div class="tag">Security</div></div>
+        <div class="blog-body">
+          <div class="blog-meta">5 min read</div>
+          <h3>How to Spot &amp; Avoid Common Banking Scams</h3>
+          <p>The warning signs of phishing, fake calls, and UPI fraud — and how to protect yourself.</p>
+          <span class="blog-link">Read article →</span>
+        </div>
+      </a>
+      <a href="blog-post.html" class="blog-card">
+        <div class="blog-thumb"><div class="tag">Investing</div></div>
+        <div class="blog-body">
+          <div class="blog-meta">9 min read</div>
+          <h3>SIPs Explained: Starting Your First Mutual Fund</h3>
+          <p>A beginner-friendly breakdown of how systematic investment plans work and how to pick one.</p>
+          <span class="blog-link">Read article →</span>
+        </div>
+      </a>
+      <a href="blog-post.html" class="blog-card">
+        <div class="blog-thumb"><div class="tag">Business</div></div>
+        <div class="blog-body">
+          <div class="blog-meta">6 min read</div>
+          <h3>Payroll Mistakes Small Businesses Should Avoid</h3>
+          <p>Common payroll errors that cost growing companies time, money, and employee trust.</p>
+          <span class="blog-link">Read article →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="bg-dark">
+  <div class="container">
+    <div class="cta-band" style="background:transparent;border:1px solid rgba(255,255,255,.1);">
+      <div class="eyebrow">Stay Informed</div>
+      <h2>Get money tips delivered to your inbox</h2>
+      <p>One short email a week — practical advice, no spam, unsubscribe any time.</p>
+      <div style="display:flex;gap:12px;justify-content:center;margin-top:26px;flex-wrap:wrap;max-width:480px;margin-left:auto;margin-right:auto;">
+        <input type="email" placeholder="Enter your email" style="flex:1;min-width:220px;padding:14px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.05);color:#fff;outline:none;">
+        <button class="btn" type="button">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">
+        <span class="mark">S</span><h3>Stackly</h3>
+      </a>
+      <p>Banking reimagined for the modern world. Secure payments, smart investments, business banking, and financial growth — all in one trusted platform.</p>
+      <div class="footer-socials">
+        <a href="#">𝕏</a><a href="#">in</a><a href="#">f</a><a href="#">▶</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-column">
+      <h4>Banking</h4>
+      <a href="services.html">Savings Account</a>
+      <a href="services.html">Credit Cards</a>
+      <a href="services.html">Loans</a>
+      <a href="services.html">Investments</a>
+      <a href="services.html">Business Banking</a>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>📍 Bengaluru, India</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ support@stackly.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Stackly. All Rights Reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Security</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

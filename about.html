@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Stackly — Our Story, Mission &amp; Values</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="mark">S</span><span>Stackly</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-auth">
+      <a href="login.html" class="nav-login">Login</a>
+      <a href="signup.html" class="nav-signup">Sign Up</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="menu-close" onclick="closeMenu()" aria-label="Close Menu">×</button>
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="about.html" class="active" onclick="closeMenu()">About</a>
+  <a href="services.html" onclick="closeMenu()">Services</a>
+  <a href="features.html" onclick="closeMenu()">Features</a>
+  <a href="pricing.html" onclick="closeMenu()">Pricing</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()">Contact</a>
+  <a href="login.html" class="mobile-login" onclick="closeMenu()">Login</a>
+  <a href="signup.html" class="mobile-signup" onclick="closeMenu()">Sign Up</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / About</div>
+    <div class="eyebrow">Our Story</div>
+    <h1>Built to make banking feel human again</h1>
+    <p>Stackly started with a simple frustration: banking was slow, confusing, and built for the bank's convenience — not yours. Twelve years later, we serve millions of customers who expect more from their money.</p>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="bg-white">
+  <div class="container">
+    <div class="feature-row">
+      <div>
+        <div class="eyebrow">Our Mission</div>
+        <h2>Make every financial decision simpler, faster, and fairer</h2>
+        <p>We believe access to clear, honest banking shouldn't depend on your income, your location, or how much time you have to stand in a queue. Every product we build — from a first savings account to a multi-crore business loan — starts with the same question: does this make the customer's life easier?</p>
+        <p>That principle has shaped everything from our zero-fee savings accounts to our 48-hour loan approvals and our decision to keep human support available around the clock.</p>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:2.6rem;margin-bottom:10px;">"Banking should fit your life, not interrupt it."</h2>
+          <p style="color:var(--muted-light)">— Stackly Founding Principle, 2014</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE / JOURNEY -->
+<section class="bg-light">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Our Journey</div>
+      <h2>Twelve years of building toward better banking</h2>
+    </div>
+    <div>
+      <div class="step">
+        <div class="num">01</div>
+        <div>
+          <h4>2014 — Founded in Bengaluru</h4>
+          <p>Stackly launched as a digital-only savings platform, aiming to remove the friction of traditional branch banking for India's first generation of smartphone-first customers.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <div>
+          <h4>2017 — RBI Banking License &amp; Lending Launch</h4>
+          <p>We became a fully licensed bank, introducing home loans, personal loans, and credit cards with transparent, fee-free terms.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <div>
+          <h4>2020 — Business Banking &amp; Payroll</h4>
+          <p>As small businesses went digital overnight, we launched Stackly Business — current accounts, invoicing, and payroll tools built for teams of any size.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">04</div>
+        <div>
+          <h4>2023 — NRI &amp; Global Remittance</h4>
+          <p>We expanded support for India's global diaspora with NRE/NRO accounts and same-day international transfers to over 40 countries.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">05</div>
+        <div>
+          <h4>2026 — 2.8 Million Customers and Growing</h4>
+          <p>Today, Stackly manages over ₹4.2 trillion in assets across individuals and businesses, with a 99.9% platform uptime and 24/7 human support.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="bg-dark">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow">What We Stand For</div>
+      <h2>The values behind every product decision</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card dark-card">
+        <div class="icon">🔒</div>
+        <h3>Security First</h3>
+        <p>Every account is protected with bank-grade encryption, biometric authentication, and 24/7 fraud monitoring — because trust is earned, not assumed.</p>
+      </div>
+      <div class="card dark-card">
+        <div class="icon">🔍</div>
+        <h3>Radical Transparency</h3>
+        <p>No hidden fees, no fine print designed to confuse. If a charge applies, you'll see it before you agree to it — every time.</p>
+      </div>
+      <div class="card dark-card">
+        <div class="icon">🤝</div>
+        <h3>Customer-Led Design</h3>
+        <p>Every feature we ship is shaped by direct customer feedback, tested with real users before it ever reaches the app.</p>
+      </div>
+      <div class="card dark-card">
+        <div class="icon">🌱</div>
+        <h3>Responsible Growth</h3>
+        <p>We lend and invest responsibly, with sustainability and long-term financial health prioritized over short-term gains.</p>
+      </div>
+      <div class="card dark-card">
+        <div class="icon">⚙️</div>
+        <h3>Continuous Innovation</h3>
+        <p>From AI-powered spending insights to instant settlements, we ship improvements weekly based on what actually helps customers.</p>
+      </div>
+      <div class="card dark-card">
+        <div class="icon">🌍</div>
+        <h3>Inclusive Access</h3>
+        <p>Banking designed to work for first-time account holders, students, freelancers, and enterprises alike — in 8 Indian languages.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow">Leadership</div>
+      <h2>The team steering Stackly forward</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="avatar" style="width:64px;height:64px;font-size:1.3rem;margin-bottom:18px;">A</div>
+        <h3>Aarav Singh</h3>
+        <p style="color:var(--gold);font-weight:700;font-size:.85rem;margin-bottom:10px;">Chief Executive Officer</p>
+        <p>Previously led digital transformation at a major public sector bank; focused on scaling Stackly's reach across tier-2 and tier-3 cities.</p>
+      </div>
+      <div class="card">
+        <div class="avatar" style="width:64px;height:64px;font-size:1.3rem;margin-bottom:18px;">P</div>
+        <h3>Priya Nair</h3>
+        <p style="color:var(--gold);font-weight:700;font-size:.85rem;margin-bottom:10px;">Chief Technology Officer</p>
+        <p>Architect of Stackly's core banking platform, with a background in distributed systems and financial infrastructure security.</p>
+      </div>
+      <div class="card">
+        <div class="avatar" style="width:64px;height:64px;font-size:1.3rem;margin-bottom:18px;">V</div>
+        <h3>Vikram Desai</h3>
+        <p style="color:var(--gold);font-weight:700;font-size:.85rem;margin-bottom:10px;">Chief Risk Officer</p>
+        <p>Oversees compliance and risk management, ensuring every Stackly product meets and exceeds RBI regulatory standards.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-light">
+  <div class="container">
+    <div class="cta-band">
+      <div class="eyebrow">Join Us</div>
+      <h2>Be part of the next chapter of Stackly</h2>
+      <p>Whether you're opening your first account or growing a business, we'd love to have you with us.</p>
+      <div class="btn-row">
+        <a href="signup.html" class="btn">Open an Account</a>
+        <a href="contact.html" class="btn btn-outline-light">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">
+        <span class="mark">S</span><h3>Stackly</h3>
+      </a>
+      <p>Banking reimagined for the modern world. Secure payments, smart investments, business banking, and financial growth — all in one trusted platform.</p>
+      <div class="footer-socials">
+        <a href="404page.html">𝕏</a>
+        <a href="404page.html">in</a>
+        <a href="404page.html">f</a>
+        <a href="404page.html">▶</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-column">
+      <h4>Banking</h4>
+      <a href="services.html">Savings Account</a>
+      <a href="services.html">Credit Cards</a>
+      <a href="services.html">Loans</a>
+      <a href="services.html">Investments</a>
+      <a href="services.html">Business Banking</a>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>📍 Bengaluru, India</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ support@stackly.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Stackly. All Rights Reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="404page.html">Privacy Policy</a>
+      <a href="404page.html">Terms</a>
+      <a href="404page.html">Security</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

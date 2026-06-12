@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up - Stackly</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',Arial,sans-serif;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:
+    radial-gradient(circle at top right,rgba(200,151,58,.25),transparent 30%),
+    linear-gradient(135deg,#0A0F1E,#101933,#18244A);
+  padding:20px;
+}
+
+.auth-card{
+  width:100%;
+  max-width:500px;
+  padding:45px;
+  border-radius:28px;
+  background:rgba(255,255,255,.96);
+  box-shadow:
+    0 25px 60px rgba(0,0,0,.35),
+    0 0 40px rgba(200,151,58,.18);
+  animation:fadeUp .8s ease;
+}
+
+.brand{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.brand h2{
+  font-size:2rem;
+  font-weight:900;
+  letter-spacing:1px;
+  color:#0A0F1E;
+}
+
+.brand span{
+  color:#C8973A;
+}
+
+h1{
+  text-align:center;
+  font-size:1.8rem;
+  margin-bottom:10px;
+  color:#0A0F1E;
+}
+
+.subtitle{
+  text-align:center;
+  color:#666;
+  margin-bottom:30px;
+}
+
+.input-group{
+  margin-bottom:16px;
+}
+
+.input-group label{
+  display:block;
+  margin-bottom:8px;
+  color:#222;
+  font-weight:600;
+}
+
+.input-group input{
+  width:100%;
+  padding:15px;
+  border:1px solid #ddd;
+  border-radius:14px;
+  font-size:15px;
+  transition:.3s;
+}
+
+.input-group input:focus{
+  outline:none;
+  border-color:#C8973A;
+  box-shadow:0 0 0 4px rgba(200,151,58,.15);
+}
+
+.password-note{
+  font-size:12px;
+  color:#777;
+  margin-top:-8px;
+  margin-bottom:15px;
+}
+
+.terms{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin-bottom:22px;
+  font-size:14px;
+  color:#555;
+}
+
+.terms input{
+  margin-top:3px;
+  accent-color:#C8973A;
+}
+
+.terms a{
+  color:#C8973A;
+  text-decoration:none;
+  font-weight:700;
+}
+
+.signup-btn{
+  width:100%;
+  border:none;
+  border-radius:14px;
+  padding:16px;
+  font-size:16px;
+  font-weight:800;
+  cursor:pointer;
+  background:linear-gradient(135deg,#C8973A,#F0C060);
+  color:#0A0F1E;
+  transition:.3s;
+}
+
+.signup-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 15px 30px rgba(200,151,58,.35);
+}
+
+.switch{
+  text-align:center;
+  margin-top:25px;
+  color:#666;
+}
+
+.switch a{
+  text-decoration:none;
+  color:#C8973A;
+  font-weight:700;
+}
+
+.home-btn{
+  display:block;
+  text-align:center;
+  margin-top:20px;
+  text-decoration:none;
+  color:#0A0F1E;
+  font-weight:700;
+}
+
+.home-btn:hover{
+  color:#C8973A;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@media(max-width:480px){
+  .auth-card{
+    padding:30px 22px;
+  }
+
+  .brand h2{
+    font-size:1.7rem;
+  }
+
+  h1{
+    font-size:1.5rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="auth-card">
+
+  <div class="brand">
+    <h2>STACK<span>LY</span></h2>
+  </div>
+
+  <h1>Create Account</h1>
+  <p class="subtitle">Join Stackly Banking and start managing your finances smarter.</p>
+
+  <form>
+    <div class="input-group">
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="input-group">
+      <label>Email Address</label>
+      <input type="email" placeholder="Enter your email address" required>
+    </div>
+
+    <div class="input-group">
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="input-group">
+      <label>Create Password</label>
+      <input type="password" placeholder="Create a strong password" required>
+    </div>
+
+    <div class="password-note">
+      Password should contain at least 8 characters, one number and one special character.
+    </div>
+
+    <div class="input-group">
+      <label>Confirm Password</label>
+      <input type="password" placeholder="Confirm your password" required>
+    </div>
+
+    <div class="terms">
+      <input type="checkbox" required>
+      <label>
+        I agree to the
+        <a href="404page.html">Terms & Conditions</a>
+        and
+        <a href="404page.html">Privacy Policy</a>.
+      </label>
+    </div>
+
+    <button class="signup-btn" type="submit">Create Account</button>
+  </form>
+
+  <div class="switch">
+    Already have an account?
+    <a href="login.html">Login Here</a>
+  </div>
+
+  <a href="index.html" class="home-btn">← Back to Home</a>
+
+</div>
+
+</body>
+</html>

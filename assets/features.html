@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Features — Smart Tools for Modern Money | Stackly</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="mark">S</span><span>Stackly</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="features.html" class="active">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-auth">
+      <a href="login.html" class="nav-login">Login</a>
+      <a href="signup.html" class="nav-signup">Sign Up</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="menu-close" onclick="closeMenu()" aria-label="Close Menu">×</button>
+  <a href="index.html" onclick="closeMenu()">Home</a>
+  <a href="about.html" onclick="closeMenu()">About</a>
+  <a href="services.html" onclick="closeMenu()">Services</a>
+  <a href="features.html" class="active" onclick="closeMenu()">Features</a>
+  <a href="pricing.html" onclick="closeMenu()">Pricing</a>
+  <a href="blog.html" onclick="closeMenu()">Blog</a>
+  <a href="contact.html" onclick="closeMenu()">Contact</a>
+  <a href="login.html" class="mobile-login" onclick="closeMenu()">Login</a>
+  <a href="signup.html" class="mobile-signup" onclick="closeMenu()">Sign Up</a>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Features</div>
+    <div class="eyebrow">Why Choose Stackly</div>
+    <h1>The details that make everyday banking effortless</h1>
+    <p>Great banking isn't just about the products — it's about how they feel to use. Here's what sets Stackly apart, from onboarding to everyday spending.</p>
+  </div>
+</section>
+
+<!-- CORE FEATURES GRID -->
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow">At a Glance</div>
+      <h2>Banking that's fast, secure, and genuinely helpful</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>4-Minute Account Opening</h3>
+        <p>Complete digital KYC using your Aadhaar and PAN — verified instantly, with no branch visit required.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🛟</div>
+        <h3>24/7 Real Human Support</h3>
+        <p>Reach a real support agent any time via chat, phone, or in-app video call — not just a chatbot.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📊</div>
+        <h3>Smart Spending Insights</h3>
+        <p>Every transaction is automatically categorized, with weekly summaries and personalized saving tips.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔔</div>
+        <h3>Real-Time Alerts</h3>
+        <p>Instant notifications for every debit, credit, and bill due — so you're never caught off guard.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎯</div>
+        <h3>Goal-Based Savings</h3>
+        <p>Create savings jars for specific goals — a trip, an emergency fund, a gadget — and watch them grow automatically.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🧾</div>
+        <h3>Bill Pay &amp; Auto-Debit</h3>
+        <p>Schedule recurring payments for utilities, subscriptions, and EMIs — all from one screen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECURITY DEEP DIVE -->
+<section class="bg-dark">
+  <div class="container">
+    <div class="feature-row">
+      <div>
+        <div class="eyebrow">Security</div>
+        <h2>Bank-grade protection on every transaction</h2>
+        <p>Your money and data are protected by multiple layers of security — built to meet and exceed RBI's regulatory standards for digital banking.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> 256-bit end-to-end encryption on all transactions</li>
+          <li><span class="check">✓</span> Biometric login with fingerprint &amp; face ID</li>
+          <li><span class="check">✓</span> Real-time fraud detection, monitored 24/7</li>
+          <li><span class="check">✓</span> Instant card freeze and transaction limits</li>
+          <li><span class="check">✓</span> Two-factor authentication on every login</li>
+        </ul>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">256-bit</h2>
+          <p style="color:var(--muted-light)">Encryption standard protecting every account, transfer, and login</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MOBILE APP -->
+<section class="bg-light">
+  <div class="container">
+    <div class="feature-row reverse">
+      <div>
+        <div class="eyebrow">Stackly App</div>
+        <h2>Your entire financial life, in one app</h2>
+        <p>Manage accounts, cards, loans, and investments from a single, beautifully simple interface — available on Android and iOS, in 8 Indian languages.</p>
+        <ul class="feature-list">
+          <li><span class="check">✓</span> One dashboard for accounts, cards &amp; investments</li>
+          <li><span class="check">✓</span> Instant UPI payments &amp; QR scan-to-pay</li>
+          <li><span class="check">✓</span> Apply for loans &amp; cards directly in-app</li>
+          <li><span class="check">✓</span> Available in 8 Indian languages</li>
+        </ul>
+        <div style="display:flex;gap:14px;margin-top:28px;flex-wrap:wrap;">
+          <a href="#" class="btn">Download for Android</a>
+          <a href="#" class="btn btn-outline">Download for iOS</a>
+        </div>
+      </div>
+      <div class="feature-visual">
+        <div style="text-align:center;padding:40px;position:relative;z-index:1;">
+          <h2 style="color:#fff;font-size:3rem;margin-bottom:8px;">4.8 ★</h2>
+          <p style="color:var(--muted-light)">Average rating across 500,000+ app reviews</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="bg-white">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow">Getting Started</div>
+      <h2>From download to your first transfer in minutes</h2>
+    </div>
+    <div style="max-width:760px;margin:0 auto;">
+      <div class="step">
+        <div class="num">01</div>
+        <div>
+          <h4>Download the Stackly app</h4>
+          <p>Available free on the Play Store and App Store. Sign up with your mobile number to get started.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">02</div>
+        <div>
+          <h4>Complete instant digital KYC</h4>
+          <p>Verify your identity using Aadhaar and PAN — the entire process takes under four minutes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">03</div>
+        <div>
+          <h4>Choose your account &amp; products</h4>
+          <p>Pick a savings account, and add cards, loans, or investment options whenever you're ready.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num">04</div>
+        <div>
+          <h4>Start banking immediately</h4>
+          <p>Your virtual debit card is issued instantly — transfer money, pay bills, and track spending right away.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="bg-light">
+  <div class="container">
+    <div class="cta-band">
+      <div class="eyebrow">See It For Yourself</div>
+      <h2>Experience banking built around you</h2>
+      <p>Join 2.8 million customers who've made the switch to faster, more transparent banking.</p>
+      <div class="btn-row">
+        <a href="signup.html" class="btn">Create Free Account</a>
+        <a href="pricing.html" class="btn btn-outline-light">Compare Plans</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">
+        <span class="mark">S</span><h3>Stackly</h3>
+      </a>
+      <p>Banking reimagined for the modern world. Secure payments, smart investments, business banking, and financial growth — all in one trusted platform.</p>
+      <div class="footer-socials">
+        <a href="#">𝕏</a><a href="#">in</a><a href="#">f</a><a href="#">▶</a>
+      </div>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-column">
+      <h4>Banking</h4>
+      <a href="services.html">Savings Account</a>
+      <a href="services.html">Credit Cards</a>
+      <a href="services.html">Loans</a>
+      <a href="services.html">Investments</a>
+      <a href="services.html">Business Banking</a>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>📍 Bengaluru, India</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉ support@stackly.com</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Stackly. All Rights Reserved.</p>
+    <div class="footer-bottom-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Security</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
