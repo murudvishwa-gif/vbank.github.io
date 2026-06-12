@@ -270,13 +270,28 @@ p{line-height:1.75;color:var(--muted)}
   margin-top:18px;
 }
 .breadcrumb{
-  font-size:.85rem;
-  color:rgba(255,255,255,.5);
-  margin-bottom:22px;
-  letter-spacing:.04em;
+  font-size: 3rem;
+  font-weight: 800;
+  color: rgba(255,255,255,.85);
+  margin-bottom: 25px;
 }
-.breadcrumb a{color:var(--gold-light)}
 
+.breadcrumb a{
+  color: var(--gold-light);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover{
+  text-decoration: underline;
+}
+
+.page-hero h1{
+  font-size: clamp(5rem, 10vw, 8rem);
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 auto;
+  color: #fff;
+}
 /* ============================================
    GENERIC SECTIONS
    ============================================ */
